@@ -6,9 +6,9 @@ from attrs import define
 
 @define(kw_only=True)
 class Location:
-    x: int = 0
-    y: int = 0
-    z: int = 0
+    x: float = 0
+    y: float = 0
+    z: float = 0
     t: datetime = datetime(2000, 1, 1)
 
     def distance(self, other: Location) -> float:
