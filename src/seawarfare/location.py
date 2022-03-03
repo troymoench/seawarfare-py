@@ -4,7 +4,7 @@ from math import sqrt
 from attrs import define
 
 
-@define(kw_only=True)
+@define(frozen=True)
 class Location:
     x: float = 0
     y: float = 0
