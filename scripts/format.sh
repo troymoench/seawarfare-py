@@ -4,3 +4,4 @@ set -e
 set -x
 
 black src tests
+isort src tests

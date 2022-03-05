@@ -1,4 +1,5 @@
 from pytest import approx
+
 from seawarfare.location import Location
 
 

@@ -1,6 +1,8 @@
 from __future__ import annotations
+
 from datetime import datetime
 from math import sqrt
+
 from attrs import define
 
 

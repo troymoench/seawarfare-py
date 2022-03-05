@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from datetime import datetime, timedelta
-from math import cos, sin, radians
+from math import cos, radians, sin
 from typing import Optional
 
 # from attrs import define, field

@@ -1,4 +1,4 @@
-from seawarfare.movable import Cruiser, Carrier
+from seawarfare.movable import Carrier, Cruiser
 
 
 def test_init_cruiser():
