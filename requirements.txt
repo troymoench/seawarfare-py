@@ -3,6 +3,7 @@ attrs
 pytest
 pytest-cov
 flake8
+flake8-bugbear
 mypy
 black
 isort
